@@ -8,7 +8,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport"
-	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=yes">
 
 <link rel="stylesheet"
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
@@ -22,6 +22,8 @@
 
 <link rel="stylesheet" type="text/css"
 	href="<c:url value="/css/personalizado.css" />" />
+
+<link rel="icon" href="<c:url value="/imagens/logo-minhas-financas.png"/>">
 
 <title>App - Controle Financeiro</title>
 
@@ -37,15 +39,9 @@
 	<h2 class="my-0 mr-md-auto font-weight-normal">
 		<i class="fas fa-hand-holding-usd"></i> Controle Financeiro
 	</h2>
-	<a class="btn btn-outline-success" style="font-size: 20px" href="#">$ign
+	<a class="btn btn-outline-success" style="font-size: 20px" href="signup">$ign
 		up</a> </header>
 	<form class="form-signin">
-
-		<%--
-		<img class="mb-4"
-			src="../../ControleFinanceiro/assets/brand/logo-minhas-financas.png"
-			alt="" width="72" height="72">
-		--%>
 
 		<img class="mb-4"
 			src="<c:url value="/imagens/logo-minhas-financas.png"/>" alt=""
@@ -54,10 +50,10 @@
 		<h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
 		<label for="inputEmail" class="sr-only">Email address</label> <input
 			type="email" id="inputEmail" class="form-control"
-			placeholder="Email address" required autofocus> <label
+			placeholder="Email ou Login" required autofocus> <label
 			for="inputPassword" class="sr-only">Password</label> <input
 			type="password" id="inputPassword" class="form-control"
-			placeholder="Password" required>
+			placeholder="Senha" required>
 		<div class="checkbox mb-3">
 			<label> <input type="checkbox" value="remember-me">
 				Remember me

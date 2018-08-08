@@ -3,11 +3,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class LoginController {
+public class SignUpController {
 
-    @RequestMapping("/login")
+    @RequestMapping("/signup")
     public String execute() {
-        System.out.println("Acessando Login");
-        return "index";
+        System.out.println("Acessando Sign Up");
+        return "cadastro";
     }
 }

@@ -1,18 +1,6 @@
 @import url('https://fonts.google.com/specimen/Merienda');
 
 * {
-	padding: 0;
-	margin: 0;
-	font-family: 'Merienda', serif;
-}
 
-.form-signin {
-	position: absolute;
-	left: 38%;
-	top: 30%;
-	text-align: center;
-	width: 100%;
-	max-width: 400px;
-	padding: 15px;
-	margin: auto;
+	font-family: 'Merienda', serif;
 }
