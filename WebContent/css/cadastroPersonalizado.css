@@ -6,13 +6,8 @@
 	font-family: 'Merienda', serif;
 }
 
-.needs-validation {
-	position: relative;
-	left: 27%;
-	top: 30%;
-	text-align: center;
+.container {
 	width: 100%;
-	max-width: 400px;
-	padding: 15px;
+	max-width: 1500px;
 	margin: auto;
 }
