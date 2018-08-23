@@ -14,6 +14,8 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
 <link rel="stylesheet"
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
 	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
@@ -37,11 +39,6 @@
 
 <title>$ign Up!</title>
 
-<!-- Bootstrap core CSS -->
-<link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Custom styles for this template -->
-<link href="form-validation.css" rel="stylesheet">
 
 <!--  <script type="text/javascript" scr="/js/autoPreenchimentoCep.js"/>"></script>
  -->
@@ -281,10 +278,6 @@
     </script>
 	
 
-
-	<script src="../../assets/js/vendor/popper.min.js"></script>
-	<script src="../../dist/js/bootstrap.min.js"></script>
-	<script src="../../assets/js/vendor/holder.min.js"></script>
 	<script>
 		// Example starter JavaScript for disabling form submissions if there are invalid fields
 						(
